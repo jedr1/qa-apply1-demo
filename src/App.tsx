@@ -149,13 +149,13 @@ export default function App() {
       <div className="w-full max-w-2xl bg-white rounded-2xl shadow-sm border border-gray-200 p-8 space-y-6">
 
         <div>
-          <h1 className="text-2xl font-semibold text-gray-900">QA Report Webhook</h1>
-          <p className="text-sm text-gray-500 mt-1">Select a report and submit it to the n8n webhook.</p>
+          <h1 className="text-2xl font-semibold text-gray-900">Automated Bug Triage Workflow Demo</h1>
+          <p className="text-sm text-gray-500 mt-1">Select a bug report and submit it to the n8n workflow.</p>
         </div>
 
         <div className="space-y-4">
           <div className="space-y-2">
-            <label className="block text-sm font-medium text-gray-700">Software Report</label>
+            <label className="block text-sm font-medium text-gray-700">Bug Report</label>
             <select
               value={selectedReport}
               onChange={e => setSelectedReport(e.target.value)}
