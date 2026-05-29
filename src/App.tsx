@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const WEBHOOK_URL = 'https://n8n.jed-ryan.com/webhook/a50c62f9-2b79-4ee5-a86b-f5250b638b2b'
+const WEBHOOK_URL = 'https://n8n.jed-ryan.com/webhook/a50c62f9-2b79-4ee5-a86b-f5250b638b2b';
 
 const REPORTS = {
   wellDocumented: [
